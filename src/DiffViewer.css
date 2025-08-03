@@ -1,0 +1,22 @@
+.diff-container {
+  display: flex;
+  gap: 16px;
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+
+.diff-column {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 8px;
+  background-color: #fdfdfd;
+}
+
+.diff-line {
+  margin-bottom: 4px;
+  line-height: 1.5;
+}
+
+.diff-line span {
+  padding: 0 2px;
+}
